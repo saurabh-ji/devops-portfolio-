@@ -1,0 +1,59 @@
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - DevOps & Cloud Engineer</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background-color: #f9f9f9; margin: 0; }
+    header { background-color: #232f3e; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    .project-container { padding: 40px; max-width: 1000px; margin: auto; }
+    .project { background: #fff; padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .project h3 { color: #232f3e; }
+    .project a { color: #0073e6; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Projects</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="project-container">
+
+    <div class="project">
+      <h3>🔧 EC2 Auto Start/Stop using Lambda & EventBridge</h3>
+      <p>Automated cost-saving by starting/stopping EC2 instances on a schedule using Lambda functions and cron expressions.</p>
+      <p><strong>Tools:</strong> AWS Lambda, EventBridge, IAM, Python</p>
+      <a href="#">GitHub Repo</a>
+    </div>
+
+    <div class="project">
+      <h3>☁️ Dockerized Django App with CI/CD</h3>
+      <p>Built and deployed a Django web app using Docker and GitHub Actions CI/CD pipeline to AWS EC2.</p>
+      <p><strong>Tools:</strong> Docker, GitHub Actions, EC2, Nginx</p>
+      <a href="#">GitHub Repo</a>
+    </div>
+
+    <div class="project">
+      <h3>🚀 Kubernetes Setup for Web App Deployment</h3>
+      <p>Configured a Kubernetes cluster with master and worker nodes for automatic deployment and scaling.</p>
+      <p><strong>Tools:</strong> Kubernetes, Kubeadm, Helm, Nginx Ingress</p>
+      <a href="#">GitHub Repo</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
